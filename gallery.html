@@ -11,8 +11,9 @@
             text-align: center; 
             font-family: sans-serif; 
             padding: 20px; 
+            margin: 0;
         }
-        h1 { margin-bottom: 20px; }
+        h1 { color: #f1c40f; margin-bottom: 20px; }
         .grid { 
             display: grid; 
             grid-template-columns: repeat(2, 1fr); 
@@ -24,14 +25,14 @@
             aspect-ratio: 1/1; 
             overflow: hidden; 
             border-radius: 12px; 
-            border: 3px solid #333; 
-            transition: transform 0.3s;
+            border: 2px solid #333; 
+            background: #222; 
         }
-        .box:hover { transform: scale(1.03); }
         .box img { 
             width: 100%; 
             height: 100%; 
             object-fit: cover; 
+            display: block;
         }
         .footer { margin-top: 30px; }
         .footer a { color: #f1c40f; text-decoration: none; font-size: 1.2rem; }
@@ -39,20 +40,21 @@
 </head>
 <body>
 
-    <h1 style="color: #f1c40f;">📸 أرشيف الذكريات</h1>
+    <h1>📸 أرشيف الذكريات</h1>
 
-   <div class="grid">
-    <div class="box"><img src="1.jpeg" alt="ذكرى"></div>
-    <div class="box"><img src="2.jpeg" alt="ذكرى"></div>
-    <div class="box"><img src="3.jpeg" alt="ذكرى"></div>
-    <div class="box"><img src="4.jpeg" alt="ذكرى"></div>
-    <div class="box"><img src="5.jpeg" alt="ذكرى"></div>
-    <div class="box"><img src="6.jpeg" alt="ذكرى"></div>
-    <div class="box"><img src="7.jpeg" alt="ذكرى"></div>
-    <div class="box"><img src="8.jpeg" alt="ذكرى"></div>
-    <div class="box"><img src="9.jpeg" alt="ذكرى"></div>
-    <div class="box"><img src="10.jpeg" alt="ذكرى"></div>
-</div>
+    <div class="grid">
+        <div class="box"><img src="images/1.jpeg" alt="صورة"></div>
+        <div class="box"><img src="images/2.jpeg" alt="صورة"></div>
+        <div class="box"><img src="images/3.jpeg" alt="صورة"></div>
+        <div class="box"><img src="images/4.jpeg" alt="صورة"></div>
+        <div class="box"><img src="images/5.jpeg" alt="صورة"></div>
+        <div class="box"><img src="images/6.jpeg" alt="صورة"></div>
+        <div class="box"><img src="images/7.jpeg" alt="صورة"></div>
+        <div class="box"><img src="images/8.jpeg" alt="صورة"></div>
+        <div class="box"><img src="images/9.jpeg" alt="صورة"></div>
+        <div class="box"><img src="images/10.jpeg" alt="صورة"></div>
+    </div>
+
     <div class="footer">
         <a href="index.html">← العودة للرئيسية</a>
     </div>
