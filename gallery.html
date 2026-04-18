@@ -2,27 +2,61 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>أرشيف الذكريات</title>
     <style>
-        body { background: #0f0f12; color: #fff; text-align: center; font-family: sans-serif; padding: 20px; }
-        .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; max-width: 500px; margin: auto; }
-        .box { aspect-ratio: 1/1; overflow: hidden; border-radius: 10px; border: 2px solid #333; }
-        .box img { width: 100%; height: 100%; object-fit: cover; }
+        body { 
+            background: #0f0f12; 
+            color: #fff; 
+            text-align: center; 
+            font-family: sans-serif; 
+            padding: 20px; 
+        }
+        h1 { margin-bottom: 20px; }
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 15px; 
+            max-width: 600px; 
+            margin: auto; 
+        }
+        .box { 
+            aspect-ratio: 1/1; 
+            overflow: hidden; 
+            border-radius: 12px; 
+            border: 3px solid #333; 
+            transition: transform 0.3s;
+        }
+        .box:hover { transform: scale(1.03); }
+        .box img { 
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+        }
+        .footer { margin-top: 30px; }
+        .footer a { color: #f1c40f; text-decoration: none; font-size: 1.2rem; }
     </style>
 </head>
 <body>
+
     <h1 style="color: #f1c40f;">📸 أرشيف الذكريات</h1>
+
     <div class="grid">
-        <div class="box"><img src="WhatsApp Image 2026-04-18 at 1.50.41 PM.jpeg" alt="صورة"></div>
-        <div class="box"><img src="WhatsApp Image 2026-04-18 at 1.50.42 PM.jpeg" alt="صورة"></div>
-        <div class="box"><img src="WhatsApp Image 2026-04-18 at 1.50.42 PM (1).jpeg" alt="صورة"></div>
-        <div class="box"><img src="WhatsApp Image 2026-04-18 at 1.50.42 PM (2).jpeg" alt="صورة"></div>
-        <div class="box"><img src="WhatsApp Image 2026-04-18 at 1.50.42 PM (3).jpeg" alt="صورة"></div>
-        <div class="box"><img src="WhatsApp Image 2026-04-18 at 1.50.42 PM (4).jpeg" alt="صورة"></div>
-        <div class="box"><img src="WhatsApp Image 2026-04-18 at 1.50.42 PM (5).jpeg" alt="صورة"></div>
-        <div class="box"><img src="WhatsApp Image 2026-04-18 at 1.50.42 PM (6).jpeg" alt="صورة"></div>
-        <div class="box"><img src="WhatsApp Image 2026-04-18 at 1.50.42 PM (7).jpeg" alt="صورة"></div>
-        <div class="box"><img src="WhatsApp Image 2026-04-18 at 1.50.43 PM (1).jpeg" alt="صورة"></div>
+        <div class="box"><img src="1.jpeg" alt="ذكرى"></div>
+        <div class="box"><img src="2.jpeg" alt="ذكرى"></div>
+        <div class="box"><img src="3.jpeg" alt="ذكرى"></div>
+        <div class="box"><img src="4.jpeg" alt="ذكرى"></div>
+        <div class="box"><img src="5.jpeg" alt="ذكرى"></div>
+        <div class="box"><img src="6.jpeg" alt="ذكرى"></div>
+        <div class="box"><img src="7.jpeg" alt="ذكرى"></div>
+        <div class="box"><img src="8.jpeg" alt="ذكرى"></div>
+        <div class="box"><img src="9.jpeg" alt="ذكرى"></div>
+        <div class="box"><img src="10.jpeg" alt="ذكرى"></div>
     </div>
+
+    <div class="footer">
+        <a href="index.html">← العودة للرئيسية</a>
+    </div>
+
 </body>
 </html>
